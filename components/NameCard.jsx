@@ -1,9 +1,15 @@
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import {
+  Button,
+  ButtonGroup,
+  Box
+} from '@chakra-ui/react'
 
 export default function NameCard() {
   return (
-    <div>
-      <Button colorScheme='blue'>NameCard</Button>
-    </div>
+    <box> 
+      <box>
+        <Button>abc</Button>
+      </box>
+    </box>
   )
 }
