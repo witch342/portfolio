@@ -1,9 +1,9 @@
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Box, Button, ButtonGroup } from '@chakra-ui/react'
 
 export default function Career() {
   return (
-    <div>
+    <Box>
       <Button colorScheme='gray'>Career</Button>
-    </div>
+    </Box>
   )
 }
